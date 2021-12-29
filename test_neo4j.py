@@ -24,6 +24,7 @@ class HelloWorldExample:
 
 
 if __name__ == "__main__":
-    greeter = HelloWorldExample("bolt://localhost:7687", "neo4j", "password")
+    #greeter = HelloWorldExample("bolt://localhost:7687", "neo4j", "password")
+    greeter = HelloWorldExample("bolt://localhost:7687", "neo4j", "neo4j")
     greeter.print_greeting("hello, world")
     greeter.close()
