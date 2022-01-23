@@ -1,0 +1,21 @@
+# ignore all .swo files
+*.swo
+
+# ignore all .swp files
+*.swp
+
+# ignore __pycache__
+*.pyc
+
+# ignore *.csv we are using feather instead
+*.csv
+
+# ignore all .pdf files
+*.pdf
+
+# ignore all .feather files
+*.feather
+
+# ignore all .txt files
+*.txt
+
