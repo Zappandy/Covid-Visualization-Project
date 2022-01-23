@@ -1,7 +1,10 @@
 # this is answering question 4 and we can extend to see incubation rates for other variants
 import pandas as pd
 x = pd.read_csv("data.csv")
-print(x)
+unique_variants = pd.unique(x["variant"])
+time_frame = pd.unique(x["year_week"])
+#print(unique_variants)  24 including UNK, Other, SGTF
+print(time_frame)
 #Index(['country', 'country_code', 'year_week', 'source', 'new_cases',
 #       'number_sequenced', 'percent_cases_sequenced', 'valid_denominator',
 #       'variant', 'number_detections_variant',
